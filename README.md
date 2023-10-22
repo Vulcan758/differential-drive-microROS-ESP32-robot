@@ -5,7 +5,7 @@ This is code for a differential drive robot using just an ESP32 as the main brai
 
 ## Usage
 
-Please refer to here[https://github.com/micro-ROS/micro_ros_espidf_component] for files and packages needed for microROS on ESP32 along with how to build, configure the network and flash programs into the microcontroller. Refer here[https://micro.ros.org/docs/tutorials/core/first_application_linux/] for setting up the microROS agent on your host machine. 
+Please refer to [here](https://github.com/micro-ROS/micro_ros_espidf_component) for files and packages needed for microROS on ESP32 along with how to build, configure the network and flash programs into the microcontroller. Refer [here](https://micro.ros.org/docs/tutorials/core/first_application_linux/) for setting up the microROS agent on your host machine. 
 
 After the program is flashed and the host machine is set up, power up your robot and run the following on your host machine:
 
@@ -21,7 +21,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 ## Issues
 
-Some issues I faced was in creating my own IDF project. The microROS ESP32 github I linked above advised to clone the github repo into a components directory within the project and to later run configurations, build and flash. But when it came to building I would repeatedly get an error. I discuss this problem here[https://github.com/micro-ROS/micro_ros_espidf_component/issues/201]. To get past this issue I edited one of the example codes that was in the microROS ESP32 github and replaced that code with my code, rebuilt and flashed. This seemed to work fine.
+Some issues I faced was in creating my own IDF project. The microROS ESP32 github I linked above advised to clone the github repo into a components directory within the project and to later run configurations, build and flash. But when it came to building I would repeatedly get an error. I discuss this problem [here](https://github.com/micro-ROS/micro_ros_espidf_component/issues/201). To get past this issue I edited one of the example codes that was in the microROS ESP32 github and replaced that code with my code, rebuilt and flashed. This seemed to work fine.
 
 ## Benefits of microROS and ESP32
 
