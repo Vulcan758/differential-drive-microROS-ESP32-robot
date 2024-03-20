@@ -1,7 +1,7 @@
 # Differential Drive robot on ESP32 with microROS integration
 
 
-This is code for a differential drive robot using just an ESP32 as the main brain. This code has microROS integrated into it which means that the robot will have access to the entire ROS ecosystem. The benefits being I can control the robot using packages created by the ROS community without the need of an SBC (or greater). Soon after a encoder and range sensors are integrated, navigation using the ROS framework will be possible. 
+This is code for a differential drive robot using just an ESP32 as the main brain. This code has microROS integrated into it which means that the robot will have access to the entire ROS 2 ecosystem. The benefits being I can control the robot using packages created by the ROS community without the need of an SBC (or greater). Soon after a encoder and range sensors are integrated, navigation using the ROS framework will be possible.
 
 ## Usage
 
